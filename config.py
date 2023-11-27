@@ -1,5 +1,5 @@
-# Copyright (c) 2023 Thomas Cherickal
-# 
-# This software is released under the MIT License.
-# https://opensource.org/licenses/MIT
-
+import os
+OPENAI_API_KEY = os.getenv(OPENAI_API_KEY)
+TEXT_VECTORSTORE_PATH = "data\deeplake_text_vectorstore"
+CHARACTER_SPLITTER_CHUNK_SIZE = 75
+OPENAI_EMBEDDINGS_CHUNK_SIZE = 16
